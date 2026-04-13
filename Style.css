@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    background: rgb(157, 24, 24);
+    background: rgb(253, 184, 238);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -64,7 +64,7 @@ body {
 }
 
 .botao1{
-    background-color: #000;
+    background-color: #ffffff;
     color: #f55000;
     width: 500px;
     height: 80px;
@@ -110,7 +110,7 @@ body {
 /* INÍCIO BOTAO2 */
 
 .botao2{
-    background-color: #000;
+    background-color: #ffffff;
     color: #0077b5;
     width: 500px;
     height: 80px;
@@ -156,7 +156,7 @@ body {
 /* INÍCIO BOTAO3 */
 
 .botao3{
-    background-color: #000;
+    background-color: #ffffff;
     color: #333;
     width: 500px;
     height: 80px;
@@ -202,7 +202,7 @@ body {
 /* INÍCIO BOTAO4 */
 
 .botao4{
-    background-color: #000;
+    background-color: #ffffff;
     color: #25d366;
     width: 500px;
     height: 80px;
@@ -248,7 +248,7 @@ body {
 /* INÍCIO BOTAO5 */
 
 .botao5{
-    background-color: #000;
+    background-color: #ffffff;
     color: #b61ca9;
     width: 500px;
     height: 80px;
@@ -318,7 +318,7 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    border: 2px solid #ff5500
+    border: 2px solid #ff5500;
     background-color: transparent;
     
 }
@@ -340,3 +340,24 @@ body {
 .imagem:hover {
     transform: scale(1.1);
 }
+
+.rodape {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    color: red;
+    background-color: rgb(67, 23, 67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.rodape a:hover{
+    color: #b61ca9;
+}
+
